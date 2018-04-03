@@ -1,0 +1,4 @@
+node_modules
+tests/recordings
+tests/screenshots
+dist

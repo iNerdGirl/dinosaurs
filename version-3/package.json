@@ -1,0 +1,41 @@
+{
+    "name": "dinosaur-jobs",
+    "version": "0.0.1",
+    "description": "",
+    "main": "listings.js",
+    "scripts": {
+        "start": "webpack-dev-server",
+        "test": "npx cypress run --browser chrome",
+        "build": "webpack --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/gSchool/Build-an-app-using-component-based-architecture.git"
+    },
+    "author": "Marlena Baker",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gSchool/Build-an-app-using-component-based-architecture/issues"
+    },
+    "homepage": "https://github.com/gSchool/Build-an-app-using-component-based-architecture#readme",
+    "devDependencies": {
+        "cypress": "^1.4.1"
+    },
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.9",
+        "file-loader": "^1.1.6",
+        "html-webpack-plugin": "^2.30.1",
+        "path": "^0.12.7",
+        "react": "^16.2.0",
+        "react-css-modules": "^4.7.1",
+        "react-dom": "^16.2.0",
+        "style-loader": "^0.19.1",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.0"
+    }
+}
